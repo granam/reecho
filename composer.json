@@ -1,0 +1,37 @@
+{
+  "name": "granam/echo",
+  "type": "library",
+  "description": "Persists the last request as a public JSON",
+  "keywords": [
+    "request",
+    "persistence",
+    "JSON"
+  ],
+  "homepage": "https://github.com/jaroslavtyc/echo",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Jaroslav Týc",
+      "email": "mail@jaroslavtyc.com"
+    }
+  ],
+  "support": {
+    "email": "mail@jaroslavtyc.com",
+    "issues": "https://github.com/jaroslavtyc/echo/issues"
+  },
+  "require": {
+    "php": ">=7.0",
+    "granam/strict-object": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.0",
+    "granam/exceptions-hierarchy": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Granam\\": "Granam/"
+    }
+  }
+}
