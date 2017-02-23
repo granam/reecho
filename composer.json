@@ -1,10 +1,12 @@
 {
-  "name": "granam/echo",
+  "name": "granam/reecho",
   "type": "library",
-  "description": "Persists the last request as a public JSON",
+  "description": "Persists the last request into a file in JSON",
   "keywords": [
+    "PHP",
     "request",
     "persistence",
+    "file",
     "JSON"
   ],
   "homepage": "https://github.com/jaroslavtyc/echo",
@@ -19,7 +21,7 @@
   ],
   "support": {
     "email": "mail@jaroslavtyc.com",
-    "issues": "https://github.com/jaroslavtyc/echo/issues"
+    "issues": "https://github.com/jaroslavtyc/reecho/issues"
   },
   "require": {
     "php": ">=7.0",
